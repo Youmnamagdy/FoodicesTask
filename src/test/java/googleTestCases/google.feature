@@ -12,8 +12,6 @@ Feature: GoogleTestcases
     Scenario Outline: check redirection to the second page from search result
       Given  open google website
       When write a "<keyword>" in search engine
-#      And scroll down to the next page and click on it
-#      And scroll down to page three
       Then the number of search result in page two is equal to search result in page three
 
       Examples:
