@@ -11,9 +11,6 @@ import googlePages.googleSearch;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
-
 public class googleStepDefs extends TestBase{
     private WebDriver driver;
      googleSearch google;
