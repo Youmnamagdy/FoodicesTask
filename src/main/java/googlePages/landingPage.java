@@ -10,9 +10,4 @@ public class landingPage {
         this.driver = driver;
     }
 
-    public void scrollToBottom() {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("scrollBy(0,1500)");
-
-    }
 }
